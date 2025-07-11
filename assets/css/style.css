@@ -1,0 +1,39 @@
+
+#add-manifest-form { margin-bottom:0px; }
+
+#img_overlay.on { display:block;position:absolute;top:0px;bottom:0px;left:0px;right:0px;background:darkgrey;background-img:url('assets/images/placeholder.jpg');background-size: cover;
+  background-position:center; }
+#img_overlay {
+  display:none;
+}
+
+
+#gallery-frame {
+  overflow-y:scroll;
+  background: black;
+  padding: 1em;
+}
+#gallery {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+
+.tile { 
+  height:120px;
+  margin:0 1em 0 0;
+  cursor:pointer;
+ }
+ 
+.tile img { height:100%; }
+
+
+#reveal {
+  position:absolute;
+  top:10px;right:10px;
+  z-index:999;
+}
+
+
+.user-bubble { width:85%;padding:0.5em;background:beige;border-radius:10px;margin:2px;}
+.bot-bubble  { width:85%;padding:0.5em;background:aliceblue;border-radius:10px;margin-left:12%;margin:2px; }
